@@ -18,5 +18,7 @@
     <body class="font-sans antialiased">
         @inertia
         <div id="modal-root"></div>
+        <script src="https://sdk.mercadopago.com/js/v2"> 
+        </script>
     </body>
 </html>

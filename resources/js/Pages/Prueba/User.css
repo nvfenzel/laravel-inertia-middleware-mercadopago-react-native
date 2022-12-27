@@ -1,0 +1,10 @@
+#form-checkout {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+  }
+
+.divs_pyments{
+  height: 30px;
+ border: solid 1px black;
+}

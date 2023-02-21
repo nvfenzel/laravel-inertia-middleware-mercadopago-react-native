@@ -13,12 +13,14 @@
         @routes
         @viteReactRefresh
         @vite(['resources/js/app.jsx', "resources/js/Pages/{$page['component']}.jsx"])
-        @inertiaHead
+        @livewireStyles
+         @inertiaHead
     </head>
     <body class="font-sans antialiased">
         @inertia
         <div id="modal-root"></div>
         <script src="https://sdk.mercadopago.com/js/v2"> 
         </script>
+        @livewireScripts
     </body>
 </html>

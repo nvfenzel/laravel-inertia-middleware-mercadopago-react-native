@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Helpper\UserService;
+use App\Models\User;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Http\Request;
 
 class UserController extends Controller
@@ -15,6 +17,12 @@ class UserController extends Controller
 
     public function login(Request $request)
     {
-        //
+        // $user = User::create([
+        //     'name' => 'culito',
+        //     'email' => $request->email,
+        //     'count' => 'is_user',
+        //     'password' =>  Hash::make($request->password),
+        // ]);
+        // return response()->json($response);
     }
 }

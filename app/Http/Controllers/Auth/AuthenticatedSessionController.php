@@ -33,16 +33,18 @@ class AuthenticatedSessionController extends Controller
      */
     public function store(LoginRequest $request)
     {
+        // dd($request);
+
         $request->authenticate();
 
         $request->session()->regenerate();
 
-        if(auth()->user()->count==="is_admin"){
+        if (auth()->user()->count === "is_admin") {
             return  Inertia::location(route('count.administrador'));
             // dd("Es administrador");
         }
 
-        if(auth()->user()->count==="is_user"){
+        if (auth()->user()->count === "is_user") {
             return  Inertia::location(route('count.user'));
             // dd("Es usuario");
         }

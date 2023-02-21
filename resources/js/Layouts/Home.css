@@ -1,0 +1,40 @@
+.home_background{
+    /* background-color:#ddebe3;
+    height: 10rem;
+    width: 100vw; */
+}
+
+.title_home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#ddebe3;
+    height: 12rem;
+    width: 100vw;
+}
+
+.title_home h1 {
+    font-size: 40px;
+    text-align: center;
+    /* font-family: 'Guardian-EgypTT'; */
+}
+
+.regalos_home {
+    height: 20rem;
+    margin: 5rem 2rem;
+}
+
+.regalos_home h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.categorias_home {
+    height: 20rem;
+    margin: 12rem 2rem;
+}
+
+.categorias_home h1 {
+    font-size: 31px;
+}

@@ -31,6 +31,7 @@ class UserService
             return ['status' => true];
         }
     }
+
     public function register($deviceName)
     {
         $validate = $this->validateInput();

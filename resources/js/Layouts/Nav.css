@@ -1,0 +1,123 @@
+.nav{
+    margin: 1rem 0px;
+    padding: 0px 1rem;
+}
+
+.search_nav{
+display: grid;
+grid-template-columns: 85px 1fr 40px 75px 48px 48px;
+}
+
+.search {
+border-top-left-radius: 50px;
+border-bottom-left-radius: 50px;
+border-right: none;
+background-color: #f4f1f1;
+border-top: 2px black solid;
+border-bottom: 2px black solid;
+border-left: 2px black solid;
+}
+
+.search:focus {
+    outline: none;
+}
+
+.button_search img {
+    height: 20px;
+    }
+
+.button_search {
+background-color: #f4f1f1;
+    width: 40px;
+    margin: 0px;
+    padding: 0px;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+    border-right: 2px black solid;
+    border-top-right-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.button_search:hover {
+    background-color: #d7d7d7;
+}
+
+.caro_href_home {
+font-size: 2rem;
+}
+
+.button_fav {
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50px;
+transition: all 0.3s ease;
+}
+
+.button_fav:hover {
+    background-color:#e7e7e7;
+}
+
+.button_fav img {
+    height: 20px;
+}
+
+.button_carrito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.button_carrito:hover {
+    background-color:#e7e7e7;
+}
+
+.button_carrito img {
+    height: 20px;
+}
+
+.button_log_in:hover {
+    background-color:#e7e7e7;
+}
+
+.button_log_in {
+    margin-left: 1rem;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.navigation_list {
+    display: flex;
+    margin: 1rem 1rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.navigation_list li {
+    margin: 5px;
+}
+
+.navigation_list li a{
+   font-size: 13px;
+}
+
+@media (max-width: 900px) {
+
+    .search_nav{
+        display: grid;
+        grid-template-columns: 75px 48px 48px;
+        }
+
+    .navigation_list{
+        display: none;
+    }
+    
+}
